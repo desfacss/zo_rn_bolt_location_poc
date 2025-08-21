@@ -1,0 +1,45 @@
+
+{
+  "name": "LocationTracker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@supabase/supabase-js": "^2.55.0",
+    "react": "19.1.1",
+    "react-native": "0.81.0",
+    "react-native-background-geolocation": "^4.18.9",
+    "react-native-permissions": "^5.4.2",
+    "react-native-vector-icons": "^10.3.0",
+    "react-native-webview": "^13.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/runtime": "^7.28.3",
+    "@react-native-community/cli": "^12.3.0",
+    "@react-native/babel-preset": "0.81.0",
+    "@react-native/eslint-config": "0.81.0",
+    "@react-native/metro-config": "0.81.0",
+    "@react-native/typescript-config": "0.81.0",
+    "@types/react": "^19.1.10",
+    "@types/react-test-renderer": "^19.1.0",
+    "babel-jest": "^30.0.5",
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "prettier": "3.6.2",
+    "react-test-renderer": "19.1.1",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
