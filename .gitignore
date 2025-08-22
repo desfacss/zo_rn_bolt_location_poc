@@ -1,35 +1,60 @@
-# dependencies
+# Node
 node_modules/
 
-# expo
+# Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# native
-*.orig.*
+# React Native / Android
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.keystore
 *.jks
+*.orig.*
+*.log
+
+# React Native / iOS
+ios/build/
+ios/Pods/
+*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundler
+vendor/bundle
+
+# Misc
+*.pem
 *.p8
 *.p12
 *.key
 *.mobileprovision
+.DS_Store
 
-# metro
+# Metro
 .metro-health-check*
 
-# debug
+# Debug logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macos
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
+# Local env files
 .env
+.env*.local
 
-# typescript
+# TypeScript
 *.tsbuildinfo
