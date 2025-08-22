@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "TempNative.app"
-               BlueprintName = "TempNative"
-               ReferencedContainer = "container:TempNative.xcodeproj">
+               BuildableName = "bgtracker.app"
+               BlueprintName = "bgtracker"
+               ReferencedContainer = "container:bgtracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "TempNativeTests.xctest"
-               BlueprintName = "TempNativeTests"
-               ReferencedContainer = "container:TempNative.xcodeproj">
+               BuildableName = "bgtrackerTests.xctest"
+               BlueprintName = "bgtrackerTests"
+               ReferencedContainer = "container:bgtracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "TempNative.app"
-            BlueprintName = "TempNative"
-            ReferencedContainer = "container:TempNative.xcodeproj">
+            BuildableName = "bgtracker.app"
+            BlueprintName = "bgtracker"
+            ReferencedContainer = "container:bgtracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "TempNative.app"
-            BlueprintName = "TempNative"
-            ReferencedContainer = "container:TempNative.xcodeproj">
+            BuildableName = "bgtracker.app"
+            BlueprintName = "bgtracker"
+            ReferencedContainer = "container:bgtracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

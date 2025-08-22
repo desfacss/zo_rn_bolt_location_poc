@@ -1,21 +1,21 @@
+// Top-level build file
+
 buildscript {
     ext {
-        buildToolsVersion = "36.0.0"
-        minSdkVersion = 24
-        compileSdkVersion = 36
-        targetSdkVersion = 36
-        ndkVersion = "27.1.12297006"
-        kotlinVersion = "2.1.20"
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 34
+        targetSdkVersion = 34
     }
+
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
     }
+
     dependencies {
-        classpath("com.android.tools.build:gradle:8.6.1")
-        classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21")
     }
 }
 
@@ -23,8 +23,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
+        maven { url("$rootDir/../node_modules/react-native/android") }
     }
 }
 
-apply plugin: "com.facebook.react.rootproject"
+

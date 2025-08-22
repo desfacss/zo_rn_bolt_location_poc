@@ -29,13 +29,18 @@ const App = () => {
         return;
       }
 
-      // Configure BackgroundFetch
+      // Configure BackgroundFetch (5 min interval)
       BackgroundFetch.configure(
         {
-          minimumFetchInterval: 15, // minutes
+          minimumFetchInterval: 5, // minutes
           stopOnTerminate: false,
           startOnBoot: true,
           enableHeadless: true,
+          requiredNetworkType: BackgroundFetch.NETWORK_TYPE_ANY,
+          requiresCharging: false,
+          requiresDeviceIdle: false,
+          requiresBatteryNotLow: false,
+          requiresStorageNotLow: false,
         },
         async (taskId) => {
           console.log("[BackgroundFetch] Event received:", taskId);

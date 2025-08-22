@@ -17,7 +17,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
     ex.autolinkLibrariesFromCommand()
 }
 
-rootProject.name = 'TempNative'
+rootProject.name = 'bgtracker'
 
 include ':app'
 
