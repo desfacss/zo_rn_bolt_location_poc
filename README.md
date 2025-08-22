@@ -23,11 +23,13 @@ A React Native application that provides persistent background location tracking
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. For iOS, install CocoaPods dependencies:
+
 ```bash
 cd ios && pod install && cd ..
 ```
@@ -40,11 +42,13 @@ cd ios && pod install && cd ..
 ### Running the App
 
 For Android:
+
 ```bash
 npm run android
 ```
 
 For iOS:
+
 ```bash
 npm run ios
 ```
@@ -54,6 +58,7 @@ npm run ios
 The app requires the following permissions:
 
 ### Android
+
 - `ACCESS_FINE_LOCATION`
 - `ACCESS_BACKGROUND_LOCATION`
 - `FOREGROUND_SERVICE`
@@ -61,6 +66,7 @@ The app requires the following permissions:
 - `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`
 
 ### iOS
+
 - `NSLocationWhenInUseUsageDescription`
 - `NSLocationAlwaysAndWhenInUseUsageDescription`
 - Background modes: `location`, `background-fetch`
@@ -84,6 +90,7 @@ The app requires the following permissions:
 ## Configuration
 
 The background geolocation service is configured with:
+
 - 10-meter distance filter
 - High accuracy GPS
 - 1-minute heartbeat interval
